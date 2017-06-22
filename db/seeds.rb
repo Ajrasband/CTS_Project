@@ -1,7 +1,7 @@
 10.times do |blog|
   Blog.create!(
       title: "My blog post #{blog}",
-      body: 'Bacon ipsum dolor amet capicola ham rump ribeye corned beef bacon. T-bone cow ham jowl, burgdoggen kielbasa porchetta frankfurter fatback pork belly pork chop. Rump beef turducken tri-tip salami. Tri-tip pancetta short loin meatloaf, beef chicken shoulder pork belly meatball landjaeger fatback. Filet mignon flank landjaeger boudin meatball, pig rump beef. Jowl prosciutto shoulder, ball tip pork belly rump shankle pork chop boudin corned beef ground round beef tail biltong. Strip steak doner cupim ham ground round kevin drumstick flank.'
+      body: "Bacon ipsum dolor amet capicola ham rump ribeye corned beef bacon. T-bone cow ham jowl, burgdoggen kielbasa porchetta frankfurter fatback pork belly pork chop. Rump beef turducken tri-tip salami. Tri-tip pancetta short loin meatloaf, beef chicken shoulder pork belly meatball landjaeger fatback. Filet mignon flank landjaeger boudin meatball, pig rump beef. Jowl prosciutto shoulder, ball tip pork belly rump shankle pork chop boudin corned beef ground round beef tail biltong. Strip steak doner cupim ham ground round kevin drumstick flank."
     )
 end
 
