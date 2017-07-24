@@ -1,4 +1,10 @@
 GIT
+  remote: https://github.com/Ajrasband/RasbandViewTool
+  revision: 856c9db8a3f47bd7e23a27f520e45cd90603059e
+  specs:
+    rasband_view_tool (0.1.0)
+
+GIT
   remote: https://github.com/twbs/bootstrap-rubygem
   revision: b156edfee2b9629ad4751ee2a118a04f824ef9eb
   specs:
@@ -202,6 +208,7 @@ DEPENDENCIES
   pry-byebug
   puma (~> 3.0)
   rails (~> 5.0.3)
+  rasband_view_tool!
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
