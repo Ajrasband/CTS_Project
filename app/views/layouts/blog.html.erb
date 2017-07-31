@@ -16,7 +16,11 @@
      
     <%= login_helper %>
     
-    <%= yield %>
+    <div class="container">
+      <div class="row">
+        <%= yield %>
+      </div>
+    </div>
    
    <%= render "shared/nav", location: "bottom" %>
     

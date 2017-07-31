@@ -162,19 +162,18 @@ body {
 }
 
 /*
- * Custom styles
+ * Custom Styles
  */
- 
- .card-block {
-   color: black;
-   text-align: left;
-   padding-left: 3em;
- }
- 
- .auth-links a {
-   color: black;
- }
- 
- .cancel-account {
-   padding-left: 2em;
- }
+
+.card-block {
+  color: black;
+  text-align: left;
+}
+
+.auth-links a {
+  color: black;
+}
+
+.register-text {
+  text-align: right;
+}
