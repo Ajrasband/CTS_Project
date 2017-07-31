@@ -6,7 +6,7 @@
       <%= devise_error_messages! %>
       <div class="row">
         
-      <div calss= "col-md-6">
+      <div class= "col-md-6">
       
         <div class="form-group">
           <%= f.label :email %><br />
@@ -20,7 +20,7 @@
         
       </div>
       
-      <div calss= "col-md-6">
+      <div class= "col-md-6">
       
         <div class="form-group">
           <%= f.label :password %>
@@ -37,16 +37,17 @@
         
       </div>
       
-      <div class="col-md-9"></div>
-      <div class="col-md-3"></div>
-      
-        <div class="form-group">
-          <%= f.submit "Sign up", class: 'btn btn-primary' %>
+      <div class="col-md-10"></div>
+      <div class="col-md-2">
+         <div class="form-group">
+          <%= f.submit "Sign up", class: 'btn btn-primary btn-block' %>
         </div>
-    
-      <div class= "auth-links register-text">
+        <div class= "auth-links register-text">
         <%= render "devise/shared/links" %>
+        </div>
       </div>
+
+      
     </div>
     <% end %>
   </div>
