@@ -188,7 +188,7 @@ body {
   margin-right: 15px;
 }
 
- #background {
+  #background {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -199,7 +199,7 @@ body {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('o-computer-keyboard-facebook.jpg') no-repeat;
+  background: image-url('images.jpg') no-repeat;
   background-size: cover;
 }
 
